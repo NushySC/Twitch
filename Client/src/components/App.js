@@ -14,10 +14,14 @@ const App = () => {
 			<Router history={history}>
 				<Header />
 				<Route path="/" exact component={StreamList} />
-				<Route path="/streams/new" component={StreamCreate} />
-				<Route path="/streams/edit/:id" component={StreamEdit} />
-				<Route path="/streams/delete" component={StreamDelete} />
-				<Route path="/streams/show" component={StreamShow} />
+				<Route path="/streams/new" exact component={StreamCreate} />
+				<Route path="/streams/edit/:id" exact component={StreamEdit} />
+				<Route
+					path="/streams/delete/:id"
+					exact
+					component={StreamDelete}
+				/>
+				<Route path="/streams/:id" exact component={StreamShow} />
 			</Router>
 		</div>
 	);

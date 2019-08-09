@@ -1,31 +1,6 @@
 {
   "streams": [
     {
-      "title": "fojksf",
-      "description": "fdsfds",
-      "id": 1
-    },
-    {
-      "title": "dsadsad",
-      "description": "dasda",
-      "id": 2
-    },
-    {
-      "title": "fhdkjfhds",
-      "description": "fdsfs",
-      "id": 3
-    },
-    {
-      "title": "hi",
-      "description": "hol",
-      "id": 4
-    },
-    {
-      "title": "sdsada",
-      "description": "dsadsadsa",
-      "id": 5
-    },
-    {
       "title": "bruja",
       "description": "talego",
       "id": 6
@@ -44,11 +19,6 @@
       "title": "lol",
       "description": "byr",
       "id": 9
-    },
-    {
-      "title": "kjfdj",
-      "description": "kfjlds",
-      "id": 10
     }
   ]
 }
